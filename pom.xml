@@ -17,6 +17,14 @@
                     <target>1.5</target>
                 </configuration>
             </plugin>
+	    <plugin>
+               <artifactId>maven-surefire-plugin</artifactId>
+               <configuration>
+                   <includes>
+                       <include>**/*.class</include>
+                   </includes>
+               </configuration>
+           </plugin>
         </plugins>
     </build>
     <dependencies>
